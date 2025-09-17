@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main()
+{
+    int a,b,c;
+    printf("PLease enter the value of a\n");
+    scanf("%d",&a);
+    printf("PLease enter the value of b\n");
+    scanf("%d",&b);
+    printf("PLease enter the value of c\n");
+    scanf("%d",&c);
+
+    if(a>b&&a>c)
+    {
+       printf("the maximum of a,b and c is %d(a)\n",a);
+    }
+    
+    else if(b>a&&b>c)
+    {
+        printf("the maximum of a,b and c is %d(b)\n",b);
+    }
+    else
+    {
+        printf("the maximum of a,b and c is %d(c)\n",c);
+    }
+    return 0;
+}
